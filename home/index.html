@@ -2,36 +2,43 @@
 <html>
 <head>
   <title>My first Vue page</title>
-  <link rel="stylesheet" href="css/style.css">
-   <link rel="stylesheet" href="css/flexbox-grid.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/flexbox-grid.css">
 </head>
 <body>
 
-<h1>Vue Example</h1>
+<div class="container">
+  <header>
+    <h1>Personal Profile Webpage</h1>
+  </header>
 
-  <div class="container">
-        <header> <h1>Personal Profile Webpage</h1></header>
-        <main>
-          <section class="main-content">
-            <div>1 About Me</div>
-            <div>2 Education</div>
-            <div>3 Course</div>
-            <div>4 IT Experience</div>
-            <div>5 Hobbies & Experience</div>
-            <div>6 Goals in Life</div>
-            <div>7 Picture Galler</div>
-          </section>
-          <aside class="sidebar">
-          </aside>
-        </main>
-        <footer> Asia Pacific College </footer>
-  </div>
+  <main>
+    <section class="main-content">
+      <div>1 About Me</div>
+      <div>2 Education</div>
+      <div>3 Course</div>
+      <div>4 IT Experience</div>
+      <div>5 Hobbies & Experience</div>
+      <div>6 Goals in Life</div>
+      <div>7 Picture Gallery</div>
+    </section>
+
+    <aside class="sidebar">
+      Sidebar
+    </aside>
+  </main>
+
+  <footer>
+    Asia Pacific College
+  </footer>
+</div>
+
 <div id="app">
   {{ message }}
 </div>
 
 <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-<script src="js/vue.js"></script>
+<script src="../js/vue.js"></script>
 
 </body>
 </html>
