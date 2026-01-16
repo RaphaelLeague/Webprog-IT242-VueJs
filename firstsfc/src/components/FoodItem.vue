@@ -16,4 +16,13 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+          .mango {
+border: dashed black 1px;
+display: inline-block;
+margin: 10px;
+padding: 10px;
+background-color: rgb(214, 242, 0);
+
+}
+</style>
