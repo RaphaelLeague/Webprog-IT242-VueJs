@@ -8,6 +8,7 @@
             <div>3 Course</div>
             <div>4 IT Experience</div>
             <div>5 Hobbies & Interests</div>
+            <div>6 Picture Gallery</div>
         </section>
         <aside class="sidebar">
         </aside>
