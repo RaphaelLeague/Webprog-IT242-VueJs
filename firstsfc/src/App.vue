@@ -1,6 +1,6 @@
 <script setup>
 import { ref, onMounted } from 'vue'
-import { supabase } from './lib/supabaseClient'
+import { supabase } from './lib/supabaseClient.js'
 const instruments = ref([])
 async function getInstruments() {
   const { data } = await supabase.from('instruments').select()
